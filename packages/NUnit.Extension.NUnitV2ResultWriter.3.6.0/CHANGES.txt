@@ -1,0 +1,12 @@
+NUnit V2 Result Writer Extension 3.6 - August 1, 2017
+
+  This release fixes an error in the build and adds a chocolatey package.
+
+  Issues Resulved
+
+   * 3 No license file in NuGet package
+   * 4 Integrate chocolatey package in build script
+
+NUnit V2 Result Writer Extension 3.5 - October 6, 2016
+
+  The first independent release of the nunit-v2-result-writer extension.

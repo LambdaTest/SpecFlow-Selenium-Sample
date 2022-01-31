@@ -9,7 +9,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
 using System.Collections.Specialized;
 using TechTalk.SpecFlow.Tracing;
-using  System.IO;
+using System.IO;
 using System.Reflection;
 
 namespace SpecFlowLambdaSample
@@ -17,7 +17,7 @@ namespace SpecFlowLambdaSample
     [Binding]
     public sealed class Hooks
     {
-        
+
         private LambdaTestDriver LTDriver;
         private string[] tags;
         private ScenarioContext _scenarioContext;
@@ -36,7 +36,7 @@ namespace SpecFlowLambdaSample
         public void AfterScenario()
         {
 
-             
+
             LTDriver.Cleanup();
         }
     }
@@ -45,28 +45,28 @@ namespace SpecFlowLambdaSample
     public class LambdaTestDriver
     {
         private IWebDriver driver;
-       
+
         private string profile;
         private string environment;
         private ScenarioContext ScenarioContext;
-        
+
 
         public LambdaTestDriver(ScenarioContext ScenarioContext)
         {
             this.ScenarioContext = ScenarioContext;
         }
 
-       
+
         public IWebDriver Init(string profile, string environment)
         {
-            
+
             NameValueCollection caps = ConfigurationManager.GetSection("capabilities/" + profile) as NameValueCollection;
             NameValueCollection settings = ConfigurationManager.GetSection("environments/" + environment) as NameValueCollection;
             Console.WriteLine(caps);
             DesiredCapabilities capability = new DesiredCapabilities();
 
             Console.WriteLine(capability);
-            Console.WriteLine(profile+environment);
+            Console.WriteLine(profile + environment);
 
             foreach (string key in caps.AllKeys)
             {
@@ -81,7 +81,7 @@ namespace SpecFlowLambdaSample
             String username = Environment.GetEnvironmentVariable("LT_USERNAME");
             if (username == null)
             {
-                username =  ConfigurationManager.AppSettings.Get("username");
+                username = ConfigurationManager.AppSettings.Get("username");
             }
 
             String accesskey = Environment.GetEnvironmentVariable("LT_ACCESS_KEY");
@@ -96,7 +96,7 @@ namespace SpecFlowLambdaSample
             Console.WriteLine(accesskey);
 
 
-            driver = new RemoteWebDriver(new Uri("http://"+username+":"+accesskey + ConfigurationManager.AppSettings.Get("server") + "/wd/hub/"), capability);
+            driver = new RemoteWebDriver(new Uri("http://" + username + ":" + accesskey + ConfigurationManager.AppSettings.Get("server") + "/wd/hub/"), capability);
             Console.WriteLine(driver);
             return driver;
         }
@@ -105,7 +105,7 @@ namespace SpecFlowLambdaSample
         {
             Console.WriteLine("Test Should stop");
             driver.Quit();
-            
+
         }
     }
 }

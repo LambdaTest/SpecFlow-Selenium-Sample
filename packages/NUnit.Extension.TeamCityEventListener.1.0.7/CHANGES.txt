@@ -1,0 +1,50 @@
+﻿teamcity-event-listener 1.0.7 - Sep 27, 2019
+
+Issues Resolved
+
+ * 0071 Unicode symbols were not escaped within TeamCity service messages
+ * 0068 Colon's in testcase data are replaced with <space> in the Teamcity service messages
+
+teamcity-event-listener 1.0.6 - Mar 20, 2019
+
+New Features
+
+ * 0063 Support [test metadata](https://confluence.jetbrains.com/display/TCD18/Reporting+Test+Metadata), TeamCity 2018.2+.
+ * 0067 Support suite patterns
+
+Issues Resolved
+
+ * 0065 The suite name is different for the test in two different builds for NUnit tests
+ * 0066 Use process ID as a root flow id if the root flow id environment variable (TEAMCITY_PROCESS_FLOW_ID) was not specified
+
+It is important to note
+
+The number of tests and the number of suits may differ for test runs from the previous version of this extension.
+
+teamcity-event-listener 1.0.5 - Nov 19, 2018
+
+Issues Resolved
+
+ * Running NUnit3 multiple times results in test being categorized as "<no suite>" - add flowStarted and flowFinished for root flow from default
+ * Use TeamCity parent flow Id - use root flow id from env var TEAMCITY_PROCESS_FLOW_ID if is was specidied
+ * Support testStdErr
+ * the 'message' attribute used instead of the 'text' attribute on "message" service message
+
+teamcity-event-listener 1.0.4 - Dec 5, 2017
+
+Issues Resolved
+
+ * 0051 Add stack trace to tests' details of TeamCity service messages when tests fail during TestFixtureSetUpAttribute for NUnit framework 2
+
+teamcity-event-listener 1.0.3 - Nov 22, 2017
+
+Issues Resolved
+
+ * 0049 Add stack trace to tests' details of TeamCity service messages when tests fail during TestFixture SetUp/TearDown
+
+teamcity-event-listener 1.0.2 - Oct 1, 2016
+
+Issues Resolved
+
+ * 0006 TeamCity does not parse service messages inside errors/output of tests
+ * 0014 Erroneous TeamCity service messages with multiple test assemblies and (default) parallel execution

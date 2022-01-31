@@ -38,7 +38,7 @@ namespace SpecFlowLambdaSample
 
         }
 
-        
+
         [Given(@"that I am on the LambdaTest Sample app (.*) and (.*)")]
         public void GivenThatIAmOnTheLambdaTestSampleAppAnd(string profile, string environment)
         {
