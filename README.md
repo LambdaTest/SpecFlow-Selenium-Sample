@@ -21,7 +21,7 @@
 
 *Learn how to use SpecFlow framework to configure and run your C# automation testing scripts on the LambdaTest platform*
 
-[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
+[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample)
 
 ## Table Of Contents
 
@@ -52,7 +52,7 @@ cd SpecFlow-Selenium-Sample
 ```
 ### Setting Up Your Authentication
 
-Make sure you have your LambdaTest credentials with you to run test automation scripts with C#. You can get these credentials from the [LambdaTest Automation Dashboard](https://automation.lambdatest.com/login) or by your LambdaTest Profile.
+Make sure you have your LambdaTest credentials with you to run test automation scripts with C#. You can get these credentials from the [LambdaTest Automation Dashboard](https://automation.lambdatest.com/login?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample) or by your LambdaTest Profile.
 
 **Step 2:** Set LambdaTest **Username** and **Access Key** in environment variables.
 
@@ -79,7 +79,7 @@ DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.SetCapability(CapabilityType.Version, "96");
             capabilities.SetCapability(CapabilityType.Platform, "Windows 10");
 ```
-You can generate capabilities for your test requirements with the help of our inbuilt [Desired Capability Generator](https://www.lambdatest.com/capabilities-generator/).
+You can generate capabilities for your test requirements with the help of our inbuilt [Desired Capability Generator](https://www.lambdatest.com/capabilities-generator/?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample).
 
 ### Executing Your First Test 
 
@@ -93,7 +93,7 @@ You can generate capabilities for your test requirements with the help of our in
 
 <img height="300" src= "https://user-images.githubusercontent.com/70570645/171986838-fd229e7e-29ff-41b7-8476-28eb17efee6a.png"/>
 
-Your results would be displayed on the test console and on the LambdaTest dashboard. [LambdaTest Dashboard](https://automation.lambdatest.com/) will help you view all your text logs, screenshots and video recording for your entire Selenium tests.
+Your results would be displayed on the test console and on the LambdaTest dashboard. [LambdaTest Dashboard](https://automation.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample) will help you view all your text logs, screenshots and video recording for your entire Selenium tests.
 
 ## Running Your Parallel Tests Using SpecFlow
 
@@ -103,7 +103,7 @@ To run parallel tests, you may go to **Test Explorer** on Visual Studio as menti
 
 You can test your locally hosted or privately hosted projects with LambdaTest Selenium grid using LambdaTest Tunnel. All you would have to do is set up an SSH tunnel using tunnel and pass toggle `tunnel = True` via desired capabilities. LambdaTest Tunnel establishes a secure SSH protocol based tunnel that allows you in testing your locally hosted or privately hosted pages, even before they are live.
 
-Refer our [LambdaTest Tunnel documentation](https://www.lambdatest.com/support/docs/testing-locally-hosted-pages/) for more information.
+Refer our [LambdaTest Tunnel documentation](https://www.lambdatest.com/support/docs/testing-locally-hosted-pages/?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample) for more information.
 
 Here’s how you can establish LambdaTest Tunnel.
 
@@ -137,9 +137,9 @@ DesiredCapabilities capabilities = new DesiredCapabilities();
 
 Check out our latest tutorials on SpecFlow automation testing 👇
 
-* [SpecFlow Tutorial For Automation Testing With Selenium C#](https://www.lambdatest.com/blog/specflow-tutorial-for-automation-testing/)
-* [Understanding SpecFlow Framework and Running Tests on Cloud Selenium Grid](https://www.lambdatest.com/blog/specflow-tutorial-for-automation-testing/)
-* [How To Perform Parallel Execution With Specflow, NUnit, And Selenium](https://www.lambdatest.com/blog/parallel-execution-with-specflow-nunit-and-selenium/)
+* [SpecFlow Tutorial For Automation Testing With Selenium C#](https://www.lambdatest.com/blog/specflow-tutorial-for-automation-testing/?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample)
+* [Understanding SpecFlow Framework and Running Tests on Cloud Selenium Grid](https://www.lambdatest.com/blog/specflow-tutorial-for-automation-testing/?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample)
+* [How To Perform Parallel Execution With Specflow, NUnit, And Selenium](https://www.lambdatest.com/blog/parallel-execution-with-specflow-nunit-and-selenium/?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample)
 
 
 For video tutorials on Selenium SpecFlow, please refer to our [SpecFlow Tutorial Playlist](https://www.youtube.com/playlist?list=PLZMWkkQEwOPmE8w1NjEmTrbRSmPokMG9L). ▶️
@@ -157,7 +157,7 @@ Visit the following links to learn more about LambdaTest's features, setup and t
 
 ## LambdaTest Community :busts_in_silhouette:
 
-The [LambdaTest Community](https://community.lambdatest.com/) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe 🌎
+The [LambdaTest Community](https://community.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe 🌎
 
 ## What's New At LambdaTest ❓
 
@@ -183,9 +183,9 @@ To stay updated with the latest features and product add-ons, visit [Changelog](
 * LT Browser - for responsive testing across 50+ pre-installed mobile, tablets, desktop, and laptop viewports
 
     
-[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
+[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample)
 
 ## We are here to help you :headphones:
 
-* Got a query? we are available 24x7 to help. [Contact Us](support@lambdatest.com)
+* Got a query? we are available 24x7 to help. [Contact Us](mailto:support@lambdatest.com)
 * For more info, visit - [LambdaTest](https://www.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=specflow-selenium-sample)
